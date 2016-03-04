@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import copy
 from django.conf import settings
-from django.utils.importlib import import_module
 from django.utils.module_loading import module_has_submodule
+
+from importlib import import_module
 
 
 __all__ = ('register', 'unregister', 'create', 'create_one', 'autodiscover')
