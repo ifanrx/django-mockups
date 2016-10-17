@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name = 'django-mockups',
-    version = '0.4.8',
+    name = 'django-mockups-ng',
+    version = '0.5.0',
     description = 'Provides tools to auto generate content.',
     long_description = open('README.rst').read(),
-    author = 'Mikko Hellsing',
-    author_email = 'mikko@aino.se',
+    author = 'ifanr',
+    author_email = 'ifanrx@ifanr.com',
     url = 'https://github.com/sorl/django-mockups',
     license = 'BSD',
     platforms='any',
